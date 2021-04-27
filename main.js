@@ -19,14 +19,18 @@ var parola2 = prompt("inserisci un'altra parola"); */
 
 
 //jsnack 3
-var numeri = [];
-var richiestaUtente;
+
+/* var numeri = 0;
+var numeroUtente; */
 
 //Il software deve chiedere per 10 volte all’utente di inserire un numero.
-for (var i = 1; i < 11; i++) {
-    richiestaUtente = Number(prompt ('inserisci un numero'));     
-    numeri.push(richiestaUtente);
-}
-console.log(numeri);
+
+/* for (var i = 1; i < 11; i++) {
+    numeroUtente = Number(prompt ('inserisci un numero'));     
+    numeri += numeroUtente;
+} */
+
 //Il programma stampa la somma di tutti i numeri inseriti. (modificato)
-console.log(numeri.sum());
+
+//console.log(numeri);
+
