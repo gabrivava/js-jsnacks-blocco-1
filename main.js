@@ -62,7 +62,7 @@ var numero;
 for (var i = 0; i < 6; i++) {
     numero = Number(prompt('inserisci un numero'));
     if (numero % 2 != 0) {
-        numeriDispari.push(numero);
+        numeriDispari.push(numero); //inserito nell'array
     }
-    console.log(numeriDispari);
+    console.log(numeriDispari); //mostra elenco
 }
