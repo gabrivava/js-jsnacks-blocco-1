@@ -38,7 +38,8 @@ var numeroUtente; */
 //jsnack 4
 //In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa. (modificato) 
 //nomi in lista
-var nomiLista = ['Luca', 'Francesco', 'giacomo'];
+
+/* var nomiLista = ['Luca', 'Francesco', 'giacomo'];
 var nomeUtente = prompt('inserisci il tuo nome');
 var messaggio = false;
 
@@ -51,4 +52,19 @@ if (messaggio) {
     console.log('benvenuto alla festa, puoi partecipare');
 } else {
     console.log('non puoi partecipare alla festa')
+} */
+
+
+//jsnack 5
+var numeriDispari = [];
+var numero;
+//chiedi 6 volte all'utente un numero
+for (var i = 0; i < 6; i++) {
+    numero = Number(prompt('inserisci un numero'));
+    if (numero % 2 != 0) {
+        numeriDispari.push(numero);
+    }
+    console.log(numeriDispari);
 }
+/* Chiedi per 6 volte all’utente di inserire un numero,
+se è dispari inseriscilo nell’array. (modificato)  */
