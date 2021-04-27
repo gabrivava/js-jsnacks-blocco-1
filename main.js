@@ -34,3 +34,21 @@ var numeroUtente; */
 
 //console.log(numeri);
 
+
+//jsnack 4
+//In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa. (modificato) 
+//nomi in lista
+var nomiLista = ['Luca', 'Francesco', 'giacomo'];
+var nomeUtente = prompt('inserisci il tuo nome');
+var messaggio = false;
+
+for (var i = 0; i < nomiLista.length; i++) {
+    if (nomeUtente === nomiLista[i]) {
+        messaggio = true;
+    }
+}
+if (messaggio) {
+    console.log('benvenuto alla festa, puoi partecipare');
+} else {
+    console.log('non puoi partecipare alla festa')
+}
