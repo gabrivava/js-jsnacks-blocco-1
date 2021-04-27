@@ -58,7 +58,7 @@ if (messaggio) {
 //jsnack 5
 var numeriDispari = [];
 var numero;
-//chiedi 6 volte all'utente un numero
+//chiedi 6 volte all'utente un numero se è dispari inseriscilo nell'arrray
 for (var i = 0; i < 6; i++) {
     numero = Number(prompt('inserisci un numero'));
     if (numero % 2 != 0) {
@@ -66,5 +66,3 @@ for (var i = 0; i < 6; i++) {
     }
     console.log(numeriDispari);
 }
-/* Chiedi per 6 volte all’utente di inserire un numero,
-se è dispari inseriscilo nell’array. (modificato)  */
