@@ -56,13 +56,27 @@ if (messaggio) {
 
 
 //jsnack 5
-var numeriDispari = [];
+
+/* var numeriDispari = [];
 var numero;
+ */
+
 //chiedi 6 volte all'utente un numero se è dispari inseriscilo nell'arrray
-for (var i = 0; i < 6; i++) {
+
+/* for (var i = 0; i < 6; i++) {
     numero = Number(prompt('inserisci un numero'));
     if (numero % 2 != 0) {
-        numeriDispari.push(numero); //inserito nell'array
+        numeriDispari.push(numero); 
+    console.log(numeriDispari);
+}
+ */
+
+
+// stampa il cubo dei primi N numeri, dove N è un numero indicato dall'utente
+
+var numeroUtente = Number(prompt('scgli un numero'));
+for (var i = 1; i <= numeroUtente; i++) {
+    if (i <= numeroUtente) {
+        console.log(Math.pow(i, 3));
     }
-    console.log(numeriDispari); //mostra elenco
 }
