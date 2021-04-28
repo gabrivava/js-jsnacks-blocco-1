@@ -79,4 +79,6 @@ for (var i = 1; i <= numeroUtente; i++) {
     if (i <= numeroUtente) {
         console.log(Math.pow(i, 3));
     }
+    
 }
+
