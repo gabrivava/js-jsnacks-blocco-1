@@ -77,6 +77,9 @@ var numero;
 var numeroUtente = Number(prompt('scgli un numero'));
 for (var i = 1; i <= numeroUtente; i++) {
     if (i <= numeroUtente) {
-        console.log(Math.pow(i, 3));
+        var content = document.getElementById('lista').innerHTML;
+        content = content + '<li>' + console.log(Math.pow(i, 3)) + '</li>';
     }
+    
 }
+
