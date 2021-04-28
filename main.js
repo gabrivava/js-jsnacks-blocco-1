@@ -71,14 +71,25 @@ var numero;
 }
  */
 
-
+// jsnack 6
 // stampa il cubo dei primi N numeri, dove N è un numero indicato dall'utente
 
-var numeroUtente = Number(prompt('scgli un numero'));
+/* var numeroUtente = Number(prompt('scgli un numero'));
 for (var i = 1; i <= numeroUtente; i++) {
     if (i <= numeroUtente) {
         console.log(Math.pow(i, 3));
     }
-    
-}
+} */
 
+// jsnack 8
+// chiediamo un numero di 4 cifre all'utente 
+
+var numeroUtente = prompt('digita un numero di 4 cifre');
+console.log(numeroUtente);
+// calcola la somma di tutte le cifre che compongono il numero
+var sum = 0;
+for (var i = 0; i < numeroUtente.length; i++) { 
+    var n = Number(numeroUtente[i]);
+    sum = sum + n;
+} 
+console.log(sum);
