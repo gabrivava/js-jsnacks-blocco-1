@@ -2,6 +2,6 @@
 /* nome = palla
 peso = 10 */
 var palla = {
-    nome: palla,
+    nome: 'palla',
     peso: 10
 }
