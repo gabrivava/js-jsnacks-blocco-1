@@ -10,6 +10,5 @@ var Palla = {
 // snak 2A
 
 //attraverso un prompt dare la possibilita all'utente di modicifare il peso della palla
-Palla.nome = prompt('inserisci nome palla');
 Palla.peso = prompt('inserisci il nuovo peso della palla');
 console.log(Palla);
